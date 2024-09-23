@@ -19,8 +19,9 @@ This repository contains two scripts to help monitor the status of Kubernetes po
 
 ```bash
 # Add Clusters in this format: cluster-name region project
+```bash
 
-Usage
+## Usage
 1. Manual Run Script (k8_issues.sh)
 This script checks for pods in problematic states across the clusters listed in clusters.txt. It looks for the following pod statuses:
 
@@ -55,7 +56,7 @@ Print the results to the console.
 2. Email Run Script (k8_issues_email.sh)
 This script works similarly to k8_issues.sh but also sends the results via email.
 
-How to Run
+### How to Run
 Ensure you have configured the mail utility (or your preferred email service).
 
 Update the clusters.txt file with your cluster connection commands.
