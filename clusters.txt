@@ -1,0 +1,2 @@
+# Add Clusters in this format: cluster-name region project
+
